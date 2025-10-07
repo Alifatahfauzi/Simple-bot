@@ -46,10 +46,18 @@ const buttonData = [
     }
 ];
 await conn.sendButton(m.chat, text, footer, btnklick, image1, image2, buttonData, m);
-
-~> jid: Tujuan Pengiriman. Ini adalah nomor WhatsApp atau ID grup (m.chat) ke mana pesan akan dikirim
-
-~> **text:** Teks Utama Pesan. Ini adalah caption atau isi teks utama yang muncul di atas gambar
-
-~> 
 ```
+
+**jid:** Tujuan Pengiriman. Ini adalah nomor WhatsApp atau ID grup (m.chat) ke mana pesan akan dikirim.
+
+**text:** Teks Utama Pesan. Ini adalah caption atau isi teks utama yang muncul di atas gambar.
+
+**footer:** Teks Bagian Bawah. Teks kecil yang akan ditampilkan di bagian paling bawah pesan.
+
+**btnklick:** Judul Saat Tombol Diklik. Teks ini akan menjadi judul besar ketika pengguna mengklik tombol dan daftar pilihan muncul.
+
+**image1:** URL Gambar Utama. Link gambar yang akan menjadi media utama dalam pesan.
+
+**image2:** URL Gambar Kedua. Dalam kode Anda, parameter ini ada tetapi tidak digunakan secara langsung di dalam pembuatan pesan utama. Mungkin disiapkan untuk penggunaan lain.
+
+**buttons:** Data Tombol. Ini adalah sebuah array yang berisi objek-objek. Setiap objek mendefinisikan satu baris tombol yang akan ditampilkan.
