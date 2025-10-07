@@ -35,3 +35,21 @@ cd Simple-bot
 npm install
 node index.js pair ( start bot )
 ```
+
+# sendButton 
+```
+const buttonData = [
+    {
+        title: `${global.nameown}`,
+        description: `${global.namebotz}`, 
+        id: '.rt' // tujuan command nya
+    }
+];
+await conn.sendButton(m.chat, text, footer, btnklick, image1, image2, buttonData, m);
+
+~> jid: Tujuan Pengiriman. Ini adalah nomor WhatsApp atau ID grup (m.chat) ke mana pesan akan dikirim
+
+~> **text:** Teks Utama Pesan. Ini adalah caption atau isi teks utama yang muncul di atas gambar
+
+~> 
+```
