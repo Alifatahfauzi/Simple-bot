@@ -37,7 +37,7 @@ node index.js pair ( start bot )
 ```
 
 # sendButton 
-```
+```javascript
 const buttonData = [
     {
         title: `${global.nameown}`,
