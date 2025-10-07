@@ -1,6 +1,6 @@
 # Alifatah WhatsApp Bot
 
-![Preview](https://github.com/balxz/akuuu-muaakk/raw/refs/heads/main/Screenshot_20250930-183237.jpg)
+![Pair](https://files.catbox.moe/0lvfdg.jpg)
 
 1. support dukungan buttonsMessage dan interactiveMessage WhatsApp bisnis dan WhatsApp asli
 2. ringan dan online 24 jam nonstop 
@@ -33,4 +33,5 @@ global.ChannelWA = "https://whatsapp.com/channel/0029VawsCnQ9mrGkOuburC1z";
 git clone https://github.com/Alifatahfauzi/Simple-bot
 cd Simple-bot
 npm install
+node index.js pair ( start bot )
 ```
