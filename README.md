@@ -6,7 +6,7 @@
 4. tidak ada 100% encryption
 5. support pairing
 
-**setting:**
+**Settings:**
 ```config.js
 import fs from "fs";
 import chalk from "chalk";
