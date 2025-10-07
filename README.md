@@ -1,5 +1,7 @@
 # Alifatah WhatsApp Bot
 
+![Preview](https://github.com/balxz/akuuu-muaakk/raw/refs/heads/main/Screenshot_20250930-183237.jpg)
+
 1. support dukungan buttonsMessage dan interactiveMessage WhatsApp bisnis dan WhatsApp asli
 2. ringan dan online 24 jam nonstop 
 3. masih menggunakan node20
@@ -24,3 +26,11 @@ global.YouTube = "https://www.youtube.com/@Fauzialifatah";
 global.GitHub = "https://github.com/Alifatahfauzi";
 global.Telegram = "https://t.me/FauziAlifatah";
 global.ChannelWA = "https://whatsapp.com/channel/0029VawsCnQ9mrGkOuburC1z";
+```
+
+# Cara run
+```
+git clone https://github.com/Alifatahfauzi/Simple-bot
+cd Simple-bot
+npm install
+```
