@@ -1,2 +1,1 @@
-# Simple-bot
-Fauzialifatah 
+**hallo saya fauzialifatah 👋** 
