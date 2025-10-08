@@ -62,7 +62,7 @@ await conn.sendButton(m.chat, text, footer, btnklick, image1, image2, buttonData
 
 **buttons:** Data Tombol. Ini adalah sebuah array yang berisi objek-objek. Setiap objek mendefinisikan satu baris tombol yang akan ditampilkan.
 
-# settings/menu.js
+# cmd/menu.js
 ini adlaah fitur **menu** yang menggunakan button **single_select** dan menu ini lebih mudah untuk di otak atik
 
 ```javascript
