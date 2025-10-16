@@ -12,7 +12,7 @@
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "npm:@shennmine/baileys@^2.1.1",
+    "@whiskeysockets/baileys": "npm:@rexxhayanasi/elaina-bail",
     "awesome-phonenumber": "^2.48.0",
     "axios": "^1.5.1",
     "chalk": "^4.1.2",
