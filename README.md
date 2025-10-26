@@ -1,6 +1,6 @@
 # Alifatah WhatsApp Bot
 
-![Pair](https://files.catbox.moe/0lvfdg.jpg)
+![Pair](https://files.catbox.moe/vifubv.jpg)
 
 1. support dukungan buttonsMessage dan interactiveMessage WhatsApp bisnis dan WhatsApp asli
 2. ringan dan online 24 jam nonstop 
