@@ -33,7 +33,7 @@ global.ChannelWA = "https://whatsapp.com/channel/0029VawsCnQ9mrGkOuburC1z";
 git clone https://github.com/Alifatahfauzi/Simple-bot
 cd Simple-bot
 npm install
-node index.js pair ( start bot )
+node index.js ( start bot )
 ```
 
 # sendButton 
