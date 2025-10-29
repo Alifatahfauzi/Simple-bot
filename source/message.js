@@ -419,7 +419,7 @@ export default async (conn, m) => {
             mentions: jids
           });
         } else {
-          m.reply("Baileys kamu belum mendukung `sendStatusMentions()`. Perbarui Baileys atau aktifkan fitur Status API.");
+          m.reply("Baileys kamu belum mendukung `sendStatusMentions()`");
         }
       } catch (err) {
         m.reply("❌ Gagal mengirim status mention.\n" + String(err?.message || err));
