@@ -105,7 +105,7 @@ export const runPlugins = async (m, plug) => {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: "120363404741298748@newsletter",
+                  newsletterJid: "120363405848897016@newsletter",
                   serverMessageId: 103,
                   newsletterName: `${global.namebotz}`,
                 },
