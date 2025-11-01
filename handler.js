@@ -80,10 +80,10 @@ export const runPlugins = async (m, plug) => {
 
       if (!isOwner && user.limit < limitCost) {
         await m.reply(
-          `Maaf, limit Anda tidak cukup untuk menggunakan perintah ini.\n` +
-          `🪙 Limit Anda: ${user.limit}\n` +
-          `💰 Diperlukan: ${limitCost}`
-        );
+          `عذرًا، رصيدك غير كافٍ لاستخدام هذا الأمر.\n` +
+          `🪙 رصيدك الحالي: ${user.limit}\n` +
+          `💰 المطلوب: ${limitCost}`
+);
         return true;
       }
 
@@ -99,7 +99,8 @@ export const runPlugins = async (m, plug) => {
           await conn.sendMessage(
             m.chat,
             {
-              text: `🫐 -${limitCost} Limit Terpakai.\n✨ Sisa limit: ${user.limit}`,
+              
+             text: `🫐 -${limitCost} تم استخدام الرصيد.\n✨ الرصيد المتبقي: ${user.limit}`,
               contextInfo: {
                 forwardingScore: 1,
                 isForwarded: true,
