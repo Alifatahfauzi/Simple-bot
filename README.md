@@ -1,6 +1,6 @@
-# Alifatah WhatsApp Bot
+# UPDATE BASE [ KAMIS - 27 NOV - 2025 ]
 
-![Pair](https://files.catbox.moe/vifubv.jpg)
+![Pair](https://files.catbox.moe/zbe5n3.jpg)
 
 1. support dukungan buttonsMessage dan interactiveMessage WhatsApp bisnis dan WhatsApp asli
 2. ringan dan online 24 jam nonstop 
