@@ -2,11 +2,7 @@
 
 ![Pair](https://files.catbox.moe/zbe5n3.jpg)
 
-1. support dukungan buttonsMessage dan interactiveMessage WhatsApp bisnis dan WhatsApp asli
-2. ringan dan online 24 jam nonstop 
-3. masih menggunakan node20
-4. tidak ada 100% encryption
-5. support pairing
+selamat menggunakan base bot whatsapp, kami telah update base bot whatsapp ini dengan lebih stabill dan mudah di ( rename ) menggunakan bahasa ( Java script ) support pairing code, support lid & jid khusunya ! isOwner menggunakan node js versi 24 selamat menggunakan base bot whatsapp dari #Fauzialifatah
 
 # settings/config.js
 ```config.js
