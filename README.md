@@ -12,6 +12,12 @@
 
 selamat menggunakan base bot whatsapp, kami telah update base bot whatsapp ini dengan lebih stabill dan mudah di ( rename ) menggunakan bahasa ( Java script ) support pairing code, support lid & jid khusunya ! isOwner menggunakan node js versi 24 selamat menggunakan base bot whatsapp dari #Fauzialifatah
 
+## Requirements
+| Requirement | Version |
+| ---|---|
+| Node | ^24.11.1 |
+| NPM | ^11.6.2 |
+
 ### Support JID & LID
 
 <details>
