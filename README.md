@@ -56,3 +56,5 @@ global.mess = {
 *isOwner sudah support dengan @Lid & @Jid jadi kalian tinggal gunakan dengan baik.*
 </div>
 </details>
+
+# FAUZIALIFATAH 
