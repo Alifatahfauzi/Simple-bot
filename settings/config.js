@@ -2,7 +2,7 @@ import fs from "fs";
 import chalk from "chalk";
 
 /** info id **/
-global.owner = ["6281340019858","226581553406099@lid"];
+global.owner = ["628xxx","999@lid"];
 global.mode = false;
 
 /** nama bot **/
