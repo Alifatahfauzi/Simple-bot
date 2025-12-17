@@ -1,0 +1,42 @@
+{
+  "name": "Fauzialifatah",
+  "version": "1.0.0",
+  "description": "credate script by fauzialifatah",
+  "main": "node index.js",
+  "type": "module",
+  "scripts": {
+    "start": "index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "github:kiuur/baileys",
+    "archiver": "^7.0.1",
+    "awesome-phonenumber": "^7.6.0",
+    "axios": "^1.13.2",
+    "canvas": "^3.2.0",
+    "chalk": "^5.6.2",
+    "cheerio": "^1.1.2",
+    "child_process": "^1.0.2",
+    "crypto-js": "^4.2.0",
+    "ffmpeg-static": "^5.3.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.3.2",
+    "jimp": "*",
+    "js-confuser": "^2.0.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.2",
+    "node-webpmux": "^3.2.1",
+    "nodemon": "^3.1.11",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "performance-now": "^2.1.0",
+    "pino": "^10.1.0",
+    "readline": "^1.3.0",
+    "sharp": "*",
+    "syntax-error": "^1.4.0"
+  },
+  "license": "ISC"
+}
