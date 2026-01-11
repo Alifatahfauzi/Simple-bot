@@ -43,3 +43,5 @@ global.mess = {
     owner: "apalah, bukan owner",
     botadmin: "bot bukan admin"
 }
+
+// Fauzialifatah 
