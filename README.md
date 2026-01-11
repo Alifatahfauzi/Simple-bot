@@ -1,9 +1,8 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <div align="center">
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=siputzx&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true)
-
-  <img src="https://files.catbox.moe/q9a7wp.jpg" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=22C55E&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I%27m+Fauzialifatah%2C+Script+Bot+Whatsapp" />
+  <img src="https://files.catbox.moe/qr4d9g.jpg" />
   <a href="https://whatsapp.com/channel/0029Vb6j2u74NViqgNCLev3a">
     <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
@@ -19,6 +18,14 @@ Hallo, saya Fauzialifatah, saya menyediakan script bot WhatsApp yang dikembangka
 | ---|---|
 | Node | ^24.11.1 |
 | NPM | ^11.6.2 |
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+
+> [!Note]
+> Jika bot WhatsApp sering tidak stabil seperti sering disconnect, delay, atau tidak merespon perintah, penyebab utamanya biasanya berasal dari library Baileys yang digunakan, karena Baileys harus terus menyesuaikan diri dengan update WhatsApp dan versi standar sering kurang optimal untuk bot dengan banyak fitur atau plugin, sehingga rawan reconnect loop dan session error; sebagai solusi, disarankan mengganti Baileys biasa dengan fork yang lebih stabil seperti @whiskeysockets/baileys karena lebih sering dipatch, lebih tahan untuk penggunaan jangka panjang, dan lebih cocok untuk sistem bot besar, meskipun tetap perlu dipahami bahwa tidak ada library WhatsApp non-resmi yang benar-benar 100% stabil, namun pemilihan Baileys yang tepat serta pengelolaan bot yang baik dapat mengurangi masalah secara signifikan
 
 ## Upgrade script
 <details>
@@ -149,4 +156,3 @@ untuk pairing code, kalian bisa masukin ke dalam `config.js` dan kalian juga bis
 
 ## Support
 - [Fauzialifatah Owner Sc](https://ziihost.store)
-https://github-readme-activity-graph.vercel.app/graph?username=Alifatahfauzi&bg_color=0d1117&color=3fb950&line=3fb950&point=3fb950&area=true&hide_border=true
