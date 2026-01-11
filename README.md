@@ -1,7 +1,8 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=22C55E&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I%27m+Fauzialifatah%2C+Script+Bot+Whatsapp" />
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=siputzx&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true)
+
   <img src="https://files.catbox.moe/q9a7wp.jpg" />
   <a href="https://whatsapp.com/channel/0029Vb6j2u74NViqgNCLev3a">
     <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
@@ -29,14 +30,16 @@ import fs from "fs";
 import chalk from "chalk";
 
 /** info id **/
-global.owner = ["628xx","99xx@lid"]; // wajib ada lid dan jid
+global.owner = ["6282199509537","210780402241764@lid"];
 global.mode = false;
 
-global.nauvalApiKey = "", // https://ytdlpyton.nvlgroup.my.id/docs
-global.velynApiKey = ""; //https://velyn.mom
+/** apikey **/
+global.velynApiKey = "-";
+global.anaApiKey = "-";
+global.termaiApikey = "-";
 
 /** pairing Code Settings **/
-global.pairingPhoneNumber = "628xx"; 
+global.pairingPhoneNumber = "6285211997125"; 
 global.customPairingCode = "12345678"; 
 
 /** settings panel **/
@@ -48,7 +51,7 @@ global.apikey = ""; // Isi api ptla
 global.capikey = ""; // Isi api ptlc
 
 /** nama bot **/
-global.namebotz = "Alifatah wabot !";
+global.namebotz = "rche x pauzi";
 global.packname = 'www.ziihost.store';
 global.nameown = "Fauzialifatah | Projects";
 global.author = 'https://www.github.com/Alifatahfauzi';
@@ -64,9 +67,11 @@ global.ChannelWA = "https://whatsapp.com/channel/0029VawsCnQ9mrGkOuburC1z";
 global.mess = {
     group: "ngapain? khusus grup njrr",
     admin: "ngapain? khusus admin njrr",
+    private: "ngapain? khusu private njirr",
     owner: "apalah, bukan owner",
     botadmin: "bot bukan admin"
 }
+
 ```
 </div>
 </details>
@@ -124,9 +129,15 @@ global.mess = {
 
 ## Install/Run
 
+clone repository
+```text
+git clone https://github.com/Alifatahfauzi/Simple-bot
+cd simple
+```
+
 install modules
 ```text
-npm install
+node index.js
 ```
 
 run/jalankan
@@ -136,9 +147,6 @@ node index.js
 untuk pairing code, kalian bisa masukin ke dalam `config.js` dan kalian juga bisa mengatur kode pairing bot whatsapp di `config.js` juga semalam bot whatsapp
 
 
-## Terimakasih developer
+## Support
 - [Fauzialifatah Owner Sc](https://ziihost.store)
-- [Kyuurzy Bailyes](https://github.com/kiuur)
-- [Nauvalsada Apikey](https://ytdlpyton.nvlgroup.my.id/)
-- [ErerexID Apikey](https://ziihost.store)
-- [KrisnaAdy Apikey](https://api.zenitsu.web.id)
+https://github-readme-activity-graph.vercel.app/graph?username=Alifatahfauzi&bg_color=0d1117&color=3fb950&line=3fb950&point=3fb950&area=true&hide_border=true
