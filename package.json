@@ -12,7 +12,7 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "@whiskeysockets/baileys": "npm:wileys",
     "archiver": "^7.0.1",
     "awesome-phonenumber": "^7.6.0",
     "axios": "^1.13.2",
