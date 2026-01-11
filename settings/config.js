@@ -11,7 +11,7 @@ global.anaApiKey = "-";
 global.termaiApikey = "-";
 
 /** pairing Code Settings **/
-global.pairingPhoneNumber = "6285211997125"; 
+global.pairingPhoneNumber = "-"; 
 global.customPairingCode = "12345678"; 
 
 /** settings panel **/
