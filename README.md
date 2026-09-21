@@ -1,159 +1,330 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=22C55E&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I%27m+Fauzialifatah%2C+Script+Bot+Whatsapp" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=22C55E&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I'm+Fauzialifatah%2C+WhatsApp+Bot" />
+
   <img src="https://files.catbox.moe/qr4d9g.jpg" />
-  <a href="https://whatsapp.com/channel/0029Vb6j2u74NViqgNCLev3a">
+
+  <a href="https://whatsapp.com/channel/0029VbC6j2u74NViqgNCLev3a">
     <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
 
 <p align="center">
-<a href="https://github.com/Alifatahfauzi"><img title="Author" src="https://img.shields.io/badge/OWNER-Fauzialifatah-green.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Alifatahfauzi">
+<img title="Author" src="https://img.shields.io/badge/OWNER-Fauzialifatah-green.svg?style=for-the-badge&logo=github">
+</a>
+</p>
+
 </div>
 
-Hallo, saya Fauzialifatah, saya menyediakan script bot WhatsApp yang dikembangkan menggunakan Node.js dengan Type Module (ESM), ditulis menggunakan bahasa pemrograman JavaScript dengan struktur kode yang rapi, modern, dan mudah dikembangkan, dirancang secara modular agar mudah dipahami, dikustomisasi, dan dikembangkan kembali, dilengkapi dengan sistem command yang fleksibel, fitur manajemen panel, serta tampilan pesan interaktif dan profesional, sehingga cocok digunakan untuk kebutuhan developer bot WhatsApp, pengelola panel, pembelajaran, maupun pengembangan project private dan public.
+# Simple Bot WhatsApp
+
+Hallo, saya **Fauzialifatah**.
+Ini adalah script bot WhatsApp yang dikembangkan menggunakan **Node.js**, **JavaScript**, dan **ES Module (ESM)** dengan struktur plugin yang modular sehingga fitur dapat dikembangkan dan ditambahkan dengan lebih mudah.
+
+Bot menggunakan **Baileys** sebagai library koneksi WhatsApp serta dilengkapi berbagai fitur seperti group management, downloader, tools, sticker, RPG, AI, sistem owner, database, auto response, anti-link, dan berbagai fitur lainnya.
+
+Project ini cocok digunakan untuk pembelajaran, pengembangan bot WhatsApp, project pribadi, maupun sebagai dasar untuk membuat bot dengan sistem plugin.
+
+---
+
+## Features
+
+Bot ini memiliki berbagai kategori fitur:
+
+| Category   | Description                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------ |
+| Main       | Menu, ping, report, informasi bot, dan fitur utama                                                           |
+| Downloader | TikTok, CapCut, Google Drive, SFile, pencarian Spotify                                                       |
+| Group      | Kick, promote, demote, tagall, hidetag, welcome, rules, dan pengaturan grup                                  |
+| Anti Link  | Anti link umum, Instagram, Facebook, TikTok, YouTube, media, promosi, dan lainnya                            |
+| Owner      | Broadcast, premium, limit, plugin management, maintenance, restart, backup, setting bot, dan lainnya         |
+| RPG        | Adventure, berburu, bank, crafting, inventory, memasak, pasar, mencuri, peternakan, leaderboard, dan lainnya |
+| Sticker    | Sticker, Brat, Brat Video, Emoji Mix, QC, meme, watermark, dan berbagai efek sticker                         |
+| To Image   | Tobotak, tohijab, tohitam, tokacamata, tolego, tomekah, tomonyet                                             |
+| Tools      | OCR, translate, upload, screenshot website, Base64, device info, runtime, registrasi, cek limit, dan lainnya |
+| AI         | Fitur AI melalui command `gita`                                                                              |
+
+Project ini memiliki sekitar **141 file plugin command** yang terbagi dalam beberapa kategori.
+
+---
+
+## Tech Stack
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square\&logo=ubuntu\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=nodedotjs\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square\&logo=gnu-bash\&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square\&logo=whatsapp\&logoColor=white)
+
+### Dependencies utama
+
+Project menggunakan beberapa package utama:
+
+* `@whiskeysockets/baileys`
+* `@hapi/boom`
+* `axios`
+* `archiver`
+* `awesome-phonenumber`
+* `canvafy`
+* `canvas`
+* `@napi-rs/canvas`
+* `chalk`
+* `cheerio`
+* `crypto-js`
+* `ffmpeg-static`
+* `fluent-ffmpeg`
+* `fs-extra`
+* `jimp`
+* `js-confuser`
+* `lowdb`
+* `node-cache`
+* `node-fetch`
+* `node-webpmux`
+* `nodemon`
+* `pino`
+* `qrcode`
+* `qrcode-reader`
+* `sharp`
+* `speedtest-cli`
+* `speedtest-net`
+* `syntax-error`
+
+Project menggunakan `"type": "module"` sehingga file JavaScript dijalankan menggunakan sistem **ESM**.
+
+---
 
 ## Requirements
-| Requirement | Version |
-| ---|---|
-| Node | ^24.11.1 |
-| NPM | ^11.6.2 |
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+`package.json` pada project ini tidak menetapkan field `engines`, sehingga versi Node.js tidak dikunci secara langsung oleh project.
 
-> [!Note]
-> Jika bot WhatsApp sering tidak stabil seperti sering disconnect, delay, atau tidak merespon perintah, penyebab utamanya biasanya berasal dari library Baileys yang digunakan, karena Baileys harus terus menyesuaikan diri dengan update WhatsApp dan versi standar sering kurang optimal untuk bot dengan banyak fitur atau plugin, sehingga rawan reconnect loop dan session error; sebagai solusi, disarankan mengganti Baileys biasa dengan fork yang lebih stabil seperti @whiskeysockets/baileys karena lebih sering dipatch, lebih tahan untuk penggunaan jangka panjang, dan lebih cocok untuk sistem bot besar, meskipun tetap perlu dipahami bahwa tidak ada library WhatsApp non-resmi yang benar-benar 100% stabil, namun pemilihan Baileys yang tepat serta pengelolaan bot yang baik dapat mengurangi masalah secara signifikan
+Disarankan menggunakan:
 
-## Upgrade script
-<details>
-<summary style="font-weight: bold; cursor: pointer; padding: 8px; border-bottom: 1px solid #eee; margin-bottom: 5px;">config.js</summary>
-<div style="padding: 10px 15px; background: #f9f9f9; border: 1px solid #eee; border-top: none; border-radius: 0 0 5px 5px;">
+```text
+Node.js versi LTS terbaru
+NPM versi terbaru
+```
+
+Pastikan Node.js dan NPM sudah terpasang sebelum menjalankan bot.
+
+Cek versi:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## Installation
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/Alifatahfauzi/Simple-bot.git
+cd Simple-bot
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+Tunggu sampai seluruh dependency selesai di-install.
+
+### 3. Jalankan bot
+
+```bash
+npm start
+```
+
+atau:
+
+```bash
+node index.js
+```
+
+### 4. Mode development
+
+Untuk menjalankan bot menggunakan Nodemon:
+
+```bash
+npm run dev
+```
+
+---
+
+## Configuration
+
+Konfigurasi utama terdapat pada:
+
+```text
+settings/config.js
+```
+
+Contoh konfigurasi:
 
 ```js
 import fs from "fs";
 import chalk from "chalk";
 
 /** info id **/
-global.owner = ["6282199509537","210780402241764@lid"];
-global.mode = false;
-
-/** apikey **/
-global.velynApiKey = "-";
-global.anaApiKey = "-";
-global.termaiApikey = "-";
+global.owner = ["NOMOR_OWNER", "LID_OWNER"];
+global.limit = 10;
+global.prefix = ".";
 
 /** pairing Code Settings **/
-global.pairingPhoneNumber = "6285211997125"; 
-global.customPairingCode = "12345678"; 
+global.pairingPhoneNumber = "NOMOR_WHATSAPP";
+global.sessionName = "session";
 
-/** settings panel **/
-global.egg = "15"; // Isi id egg
-global.nestid = "5"; // Isi id nest
-global.loc = "1"; // Isi id location
-global.domain = ""
-global.apikey = ""; // Isi api ptla
-global.capikey = ""; // Isi api ptlc
-
-/** nama bot **/
-global.namebotz = "rche x pauzi";
-global.packname = 'www.ziihost.store';
-global.nameown = "Fauzialifatah | Projects";
-global.author = 'https://www.github.com/Alifatahfauzi';
+/** settings bot **/
+global.namebotz = "WhatsApp - Bot";
+global.packname = "by";
+global.nameown = "fauzialifatah || offc";
+global.author = "fauzialifatah";
 global.footer = "𝗍𝖾𝗅𝖾𝗀𝗋𝖺𝗆: @FauziAlifatah";
+global.thumbnail = "./settings/image/dev.png";
 
 /** media **/
 global.YouTube = "https://www.youtube.com/@Fauzialifatah";
 global.GitHub = "https://github.com/Alifatahfauzi";
 global.Telegram = "https://t.me/FauziAlifatah";
-global.ChannelWA = "https://whatsapp.com/channel/0029VawsCnQ9mrGkOuburC1z";
-
-/** message **/
-global.mess = {
-    group: "ngapain? khusus grup njrr",
-    admin: "ngapain? khusus admin njrr",
-    private: "ngapain? khusu private njirr",
-    owner: "apalah, bukan owner",
-    botadmin: "bot bukan admin"
-}
-
+global.ChannelWA = "https://whatsapp.com/channel/0029VbC5iM33LdQe3IxCZs1K";
 ```
-</div>
-</details>
-<details>
-<summary style="font-weight: bold; cursor: pointer; padding: 8px; border-bottom: 1px solid #eee; margin-bottom: 5px;">package.json</summary>
-<div style="padding: 10px 15px; background: #f9f9f9; border: 1px solid #eee; border-top: none; border-radius: 0 0 5px 5px;">
 
-```json
-{
-  "name": "Fauzialifatah",
-  "version": "1.0.0",
-  "description": "credate script by fauzialifatah",
-  "main": "node index.js",
-  "type": "module",
-  "scripts": {
-    "start": "index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "github:kiuur/baileys",
-    "archiver": "^7.0.1",
-    "awesome-phonenumber": "^7.6.0",
-    "axios": "^1.13.2",
-    "canvas": "^3.2.0",
-    "chalk": "^5.6.2",
-    "cheerio": "^1.1.2",
-    "child_process": "^1.0.2",
-    "crypto-js": "^4.2.0",
-    "ffmpeg-static": "^5.3.0",
-    "fluent-ffmpeg": "^2.1.3",
-    "fs-extra": "^11.3.2",
-    "jimp": "*",
-    "js-confuser": "^2.0.0",
-    "node-cache": "^5.1.2",
-    "node-fetch": "^3.3.2",
-    "node-webpmux": "^3.2.1",
-    "nodemon": "^3.1.11",
-    "os": "^0.1.2",
-    "path": "^0.12.7",
-    "performance-now": "^2.1.0",
-    "pino": "^10.1.0",
-    "readline": "^1.3.0",
-    "sharp": "*",
-    "syntax-error": "^1.4.0"
-  },
-  "license": "ISC"
-}
+### Konfigurasi penting
 
-```
-</div>
-</details>
+| Config                      | Fungsi                         |
+| --------------------------- | ------------------------------ |
+| `global.owner`              | Menentukan nomor/LID owner bot |
+| `global.limit`              | Limit awal user                |
+| `global.prefix`             | Prefix command bot             |
+| `global.pairingPhoneNumber` | Nomor WhatsApp untuk pairing   |
+| `global.sessionName`        | Nama folder/session WhatsApp   |
+| `global.namebotz`           | Nama bot                       |
+| `global.packname`           | Packname sticker               |
+| `global.nameown`            | Nama owner                     |
+| `global.author`             | Author sticker                 |
+| `global.footer`             | Footer pesan bot               |
+| `global.thumbnail`          | Thumbnail yang digunakan bot   |
 
-## Install/Run
+Prefix default bot adalah:
 
-clone repository
 ```text
-git clone https://github.com/Alifatahfauzi/Simple-bot
-cd simple
+.
 ```
 
-install modules
+Contoh command:
+
 ```text
-node index.js
+.menu
+.ping
+.runtime
+.sticker
 ```
 
-run/jalankan
+---
+
+## Pairing Code
+
+Bot menggunakan sistem **WhatsApp Pairing Code**.
+
+Nomor pairing diatur melalui:
+
+```js
+global.pairingPhoneNumber = "NOMOR_WHATSAPP";
+```
+
+Setelah menjalankan:
+
+```bash
+npm start
+```
+
+apabila session belum terdaftar, bot akan menampilkan:
+
 ```text
-node index.js
+PAIRING CODE
 ```
-untuk pairing code, kalian bisa masukin ke dalam `config.js` dan kalian juga bisa mengatur kode pairing bot whatsapp di `config.js` juga semalam bot whatsapp
 
+Masukkan kode tersebut melalui menu **Linked Devices / Perangkat Tertaut** pada WhatsApp.
 
-## Support
-- [Fauzialifatah Owner Sc](https://ziihost.store)
+Setelah proses pairing berhasil, session akan tersimpan pada folder:
+
+```text
+session/
+```
+
+Jangan membagikan folder session kepada orang lain.
+
+---
+
+## Database
+
+Bot menggunakan **LowDB** untuk penyimpanan data.
+
+Database utama berada di:
+
+```text
+database/database.json
+```
+
+Data yang disimpan antara lain:
+
+* User
+* Limit
+* Premium
+* XP
+* Level
+* Money
+* Bank
+* RPG data
+* AFK
+* Registrasi
+* Group settings
+* Anti-link settings
+* Welcome
+* Maintenance
+* Auto read
+* Auto typing
+* Auto react
+
+Folder temporary:
+
+```text
+database/tmp
+```
+
+Folder tersebut akan dibuat otomatis ketika bot dijalankan jika belum tersedia.
+
+---
+
+## Structure
+
+Struktur project secara umum:
+
+```text
+Simple-bot/
+│
+├── cmd/
+│   ├── _events/
+│   ├── ai/
+│   ├── download/
+│   ├── group/
+│   ├── main/
+│   ├── menu/
+│   ├── owner/
+│   ├── rpg/
+│   ├── stiker/
+│   ├── toimage/
+│   └── tools/
+│
+├── database/
+│   ├── database.json
+│   └── tmp/
+│
+├── library/
+│   ├── canvas/
+│   ├── scrape/
+```
