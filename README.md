@@ -385,25 +385,31 @@ Pengaturan tersebut digunakan untuk menyesuaikan perilaku bot sesuai dengan kebu
 
 ## Notes
 
-Perhatikan beberapa hal berikut sebelum menjalankan bot
+> [!WARNING]
+> **Perhatian**
+>
+> ![Node.js](https://img.shields.io/badge/Node.js-Wajib-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+> ![Session](https://img.shields.io/badge/Session-Jangan_Dibagikan-red?style=for-the-badge)
+> ![Error](https://img.shields.io/badge/Error-Tanggung_Jawab_Pengguna-orange?style=for-the-badge)
+>
+> 1. Pastikan Node.js dan NPM telah terpasang
+> 2. Pastikan seluruh dependency berhasil diinstal menggunakan `npm install`
+> 3. Pastikan konfigurasi nomor WhatsApp untuk pairing telah diatur dengan benar
+> 4. Jangan menghapus folder `session` selama bot masih digunakan
+> 5. Pastikan koneksi internet dalam keadaan stabil
+> 6. Jangan membagikan data session kepada pihak lain
+> 7. Jangan mempublikasikan API key, token, password, atau credential pribadi ke repository
+> 8. Lakukan pencadangan database secara berkala untuk mengurangi risiko kehilangan data
+> 9. Setiap error, kendala, atau masalah yang terjadi akibat penggunaan script menjadi tanggung jawab pengguna
+> 10. Pengguna bertanggung jawab atas proses instalasi, konfigurasi, pemeliharaan, serta penyesuaian script sesuai dengan kebutuhannya
+> 11. Pemilik script tidak bertanggung jawab atas kerusakan, kesalahan konfigurasi, kehilangan data, atau kendala lain yang timbul akibat penggunaan maupun modifikasi script
+>
+> Script menggunakan **Baileys**, yaitu library tidak resmi untuk berkomunikasi dengan WhatsApp
+>
+> Perubahan pada sistem WhatsApp dapat memengaruhi kompatibilitas, kestabilan, maupun cara kerja bot
+>
+> Oleh karena itu, dependency dan source code dapat memerlukan pembaruan apabila terdapat perubahan yang memengaruhi sistem
 
-1. Pastikan Node.js dan NPM telah terpasang
-2. Pastikan seluruh dependency berhasil diinstal menggunakan `npm install`
-3. Pastikan konfigurasi nomor WhatsApp untuk pairing telah diatur dengan benar
-4. Jangan menghapus folder `session` selama bot masih digunakan
-5. Pastikan koneksi internet dalam keadaan stabil
-6. Jangan membagikan data session kepada pihak lain
-7. Jangan mempublikasikan API key, token, password, atau credential pribadi ke repository
-8. Lakukan pencadangan database secara berkala untuk mengurangi risiko kehilangan data
-9. Setiap error, kendala, atau masalah yang terjadi akibat penggunaan script menjadi tanggung jawab pengguna
-10. Pengguna bertanggung jawab untuk melakukan konfigurasi, instalasi, pemeliharaan, dan penyesuaian script sesuai dengan kebutuhannya
-11. Pemilik script tidak bertanggung jawab atas kerusakan, kesalahan konfigurasi, kehilangan data, atau kendala lain yang timbul akibat penggunaan atau modifikasi script
-
-Bot menggunakan **Baileys**, yaitu library tidak resmi untuk berkomunikasi dengan WhatsApp
-
-Perubahan pada sistem WhatsApp dapat memengaruhi kompatibilitas, kestabilan, maupun cara kerja bot
-
-Oleh karena itu, dependency dan source code dapat memerlukan pembaruan apabila terdapat perubahan yang memengaruhi sistem
 
 ---
 
