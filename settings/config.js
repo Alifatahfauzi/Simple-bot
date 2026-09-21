@@ -2,12 +2,12 @@ import fs from "fs";
 import chalk from "chalk";
 
 /** info id **/
-global.owner = ["6281340019858","226581553406099@lid"];
+global.owner = ["628xxxx","xxxxx@lid"];
 global.limit = 10;
 global.prefix = ".";
 
 /** pairing Code Settings **/
-global.pairingPhoneNumber = "6285211997125"; 
+global.pairingPhoneNumber = "628xxx"; 
 global.sessionName = "session";
 
 /** settings bot **/
