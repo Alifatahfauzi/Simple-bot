@@ -86,7 +86,6 @@ Script bot menyediakan beberapa kategori fitur utama sebagai berikut
 | `node-cache`              | `^5.1.2`  |
 | `node-fetch`              | `^3.3.2`  |
 | `node-webpmux`            | `^2.2.0`  |
-| `nodemon`                 | `^3.1.11` |
 | `pino`                    | `^10.1.0` |
 | `qrcode`                  | `^1.5.4`  |
 | `qrcode-reader`           | `^1.0.4`  |
@@ -124,7 +123,8 @@ npm -v
 
 ---
 
-## Installation
+<details>
+<summary><strong>Installation</strong></summary>
 
 ### 1 Clone Repository
 
@@ -135,17 +135,15 @@ cd Simple-bot
 
 ### 2 Install Dependencies
 
-Instal seluruh dependency yang diperlukan dengan perintah
+Instal seluruh dependency yang diperlukan menggunakan perintah
 
 ```bash
 npm install
 ```
 
-Tunggu hingga proses instalasi selesai
-
 ### 3 Jalankan Bot
 
-Bot dapat dijalankan menggunakan
+Bot dapat dijalankan menggunakan perintah
 
 ```bash
 npm start
@@ -157,13 +155,7 @@ atau
 node index.js
 ```
 
-### 4 Mode Development
-
-Untuk menjalankan bot menggunakan Nodemon
-
-```bash
-npm run dev
-```
+</details>
 
 ---
 
@@ -195,7 +187,8 @@ global.footer = "𝗍𝖾𝗅𝖾𝗀𝗋𝖺𝗆: @FauziAlifatah";
 global.thumbnail = "./settings/image/dev.png";
 ```
 
-### Parameter Konfigurasi
+<details>
+<summary><strong>Parameter Konfigurasi</strong></summary>
 
 | Parameter                   | Keterangan                                                    |
 | --------------------------- | ------------------------------------------------------------- |
@@ -210,6 +203,8 @@ global.thumbnail = "./settings/image/dev.png";
 | `global.author`             | Menentukan informasi pembuat atau author                      |
 | `global.footer`             | Menentukan teks footer pada pesan bot                         |
 | `global.thumbnail`          | Menentukan gambar thumbnail bot                               |
+
+</details>
 
 ---
 
@@ -388,23 +383,6 @@ Pengaturan tersebut digunakan untuk menyesuaikan perilaku bot sesuai dengan kebu
 
 ---
 
-## Running
-
-Setelah seluruh konfigurasi selesai dilakukan, jalankan
-
-```bash
-npm install
-npm start
-```
-
-Untuk menjalankan dalam mode pengembangan
-
-```bash
-npm run dev
-```
-
----
-
 ## Notes
 
 Perhatikan beberapa hal berikut sebelum menjalankan bot
@@ -417,6 +395,9 @@ Perhatikan beberapa hal berikut sebelum menjalankan bot
 6. Jangan membagikan data session kepada pihak lain
 7. Jangan mempublikasikan API key, token, password, atau credential pribadi ke repository
 8. Lakukan pencadangan database secara berkala untuk mengurangi risiko kehilangan data
+9. Setiap error, kendala, atau masalah yang terjadi akibat penggunaan script menjadi tanggung jawab pengguna
+10. Pengguna bertanggung jawab untuk melakukan konfigurasi, instalasi, pemeliharaan, dan penyesuaian script sesuai dengan kebutuhannya
+11. Pemilik script tidak bertanggung jawab atas kerusakan, kesalahan konfigurasi, kehilangan data, atau kendala lain yang timbul akibat penggunaan atau modifikasi script
 
 Bot menggunakan **Baileys**, yaitu library tidak resmi untuk berkomunikasi dengan WhatsApp
 
@@ -428,13 +409,13 @@ Oleh karena itu, dependency dan source code dapat memerlukan pembaruan apabila t
 
 ## Support & Credits
 
-**Dikembangkan oleh Fauzialifatah**
+**Script Bot WhatsApp ini dikembangkan oleh Fauzialifatah**
 
-| Platform         | Tautan                                                 |
-| ---------------- | ------------------------------------------------------ |
-| Telegram         | https://t.me/FauziAlifatah                             |
-| GitHub           | https://github.com/Alifatahfauzi                       |
-| WhatsApp Channel | https://whatsapp.com/channel/0029VbC6j2u74NViqgNCLev3a |
+| Platform         | Tautan                                                |
+| ---------------- | ----------------------------------------------------- |
+| Telegram         | https://t.me/FauziAlifatah                            |
+| GitHub           | https://github.com/Alifatahfauzi                      |
+| WhatsApp Channel | https://whatsapp.com/channel/0029VbC5iM33LdQe3IxCZs1K |
 
 ---
 
