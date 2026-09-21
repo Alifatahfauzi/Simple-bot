@@ -26,7 +26,7 @@
 
 Script ini dirancang dengan struktur yang modular sehingga setiap fitur dapat dikelola, dikembangkan, dan disesuaikan dengan kebutuhan pengguna. Sistem bot menggunakan pendekatan berbasis plugin sehingga penambahan maupun pengembangan fitur dapat dilakukan secara lebih terstruktur.
 
-Bot menggunakan **Baileys** sebagai library untuk menghubungkan aplikasi dengan layanan WhatsApp. Selain itu, tersedia berbagai fitur yang mencakup pengelolaan grup, downloader, sticker, sistem RPG, AI, tools, sistem owner, database, serta berbagai fitur pendukung lainnya.
+Bot menggunakan **Baileys** sebagai library untuk menghubungkan aplikasi dengan layanan WhatsApp. Selain itu, tersedia berbagai fitur yang mencakup downloader, sticker, AI, tools, sistem owner, database, serta berbagai fitur pendukung lainnya.
 
 Script ini dapat digunakan sebagai media pembelajaran, dasar pengembangan bot WhatsApp, proyek pribadi, maupun pengembangan proyek publik dan privat.
 
@@ -40,14 +40,12 @@ Script bot ini menyediakan beberapa kategori fitur sebagai berikut:
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Main       | Menyediakan menu, ping, report, informasi bot, dan berbagai fitur utama lainnya.                                                                                          |
 | Downloader | Menyediakan fitur pengunduhan dari TikTok, CapCut, Google Drive, SFile, serta pencarian Spotify.                                                                          |
-| Group      | Menyediakan fitur pengelolaan grup seperti kick, promote, demote, tagall, hidetag, welcome, rules, serta berbagai pengaturan grup lainnya.                                |
-| Anti Link  | Menyediakan perlindungan terhadap berbagai jenis tautan, seperti Instagram, Facebook, TikTok, YouTube, media, promosi, dan lainnya.                                       |
-| Owner      | Menyediakan fitur pengelolaan bot, broadcast, premium, limit, plugin, maintenance, restart, backup, serta berbagai pengaturan lainnya.                                    |
-| RPG        | Menyediakan sistem adventure, berburu, bank, crafting, inventory, memasak, pasar, mencuri, peternakan, leaderboard, serta fitur RPG lainnya.                              |
 | Sticker    | Menyediakan pembuatan dan pengolahan sticker dengan berbagai fitur tambahan.                                                                                              |
 | To Image   | Menyediakan berbagai fitur manipulasi dan pengolahan gambar.                                                                                                              |
 | Tools      | Menyediakan OCR, penerjemahan, upload, screenshot situs web, Base64, informasi perangkat, runtime, registrasi, pemeriksaan limit, serta berbagai fitur pendukung lainnya. |
 | AI         | Menyediakan fitur berbasis AI melalui command `gita`.                                                                                                                     |
+| Owner      | Menyediakan fitur pengelolaan bot, broadcast, premium, limit, plugin, maintenance, restart, backup, serta berbagai pengaturan lainnya.                                    |
+| Anti Link  | Menyediakan perlindungan terhadap berbagai jenis tautan, seperti Instagram, Facebook, TikTok, YouTube, media, promosi, dan lainnya.                                       |
 
 ---
 
@@ -62,38 +60,36 @@ Script bot ini menyediakan beberapa kategori fitur sebagai berikut:
 <details>
 <summary><strong>Dependencies Utama</strong></summary>
 
-Project ini menggunakan berbagai package untuk mendukung sistem bot, pengolahan media, database, sistem plugin, serta berbagai fungsi lainnya.
-
-| Package                   | Fungsi                                                             |
-| ------------------------- | ------------------------------------------------------------------ |
-| `@whiskeysockets/baileys` | Library untuk koneksi dan komunikasi dengan WhatsApp.              |
-| `@hapi/boom`              | Penanganan dan pengelolaan HTTP error.                             |
-| `@napi-rs/canvas`         | Pengolahan gambar berbasis Canvas.                                 |
-| `archiver`                | Pembuatan dan pengelolaan file arsip.                              |
-| `axios`                   | HTTP client untuk melakukan request ke API atau server.            |
-| `awesome-phonenumber`     | Validasi dan pemrosesan nomor telepon.                             |
-| `canvafy`                 | Pembuatan gambar, kartu, dan visual tertentu.                      |
-| `canvas`                  | Pemrosesan gambar menggunakan Canvas.                              |
-| `chalk`                   | Memberikan warna pada output terminal.                             |
-| `cheerio`                 | Parsing dan manipulasi HTML.                                       |
-| `crypto-js`               | Menyediakan fungsi kriptografi.                                    |
-| `ffmpeg-static`           | Menyediakan binary FFmpeg untuk pemrosesan media.                  |
-| `fluent-ffmpeg`           | Antarmuka untuk mengoperasikan FFmpeg.                             |
-| `fs-extra`                | Menyediakan fungsi tambahan untuk pengelolaan file system.         |
-| `jimp`                    | Pengolahan dan manipulasi gambar.                                  |
-| `js-confuser`             | Obfuscation pada kode JavaScript.                                  |
-| `lowdb`                   | Penyimpanan data berbasis JSON.                                    |
-| `node-cache`              | Sistem penyimpanan cache dalam memori.                             |
-| `node-fetch`              | Melakukan HTTP request menggunakan Fetch API.                      |
-| `node-webpmux`            | Pengolahan file WebP dan metadata terkait.                         |
-| `nodemon`                 | Menjalankan ulang aplikasi secara otomatis pada saat pengembangan. |
-| `pino`                    | Sistem logging untuk aplikasi Node.js.                             |
-| `qrcode`                  | Pembuatan QR Code.                                                 |
-| `qrcode-reader`           | Membaca dan memproses QR Code.                                     |
-| `sharp`                   | Pengolahan, konversi, dan optimasi gambar.                         |
-| `speedtest-cli`           | Pengujian kecepatan koneksi internet melalui command line.         |
-| `speedtest-net`           | Pengujian kecepatan jaringan melalui Node.js.                      |
-| `syntax-error`            | Pemeriksaan kesalahan sintaks pada kode JavaScript.                |
+| Package                   | Version   |
+| ------------------------- | --------- |
+| `@hapi/boom`              | `^10.0.1` |
+| `@napi-rs/canvas`         | `^0.1.84` |
+| `@whiskeysockets/baileys` | `latest`  |
+| `archiver`                | `^7.0.1`  |
+| `axios`                   | `^1.13.2` |
+| `awesome-phonenumber`     | `^7.6.0`  |
+| `canvafy`                 | `^6.0.0`  |
+| `canvas`                  | `^3.2.0`  |
+| `chalk`                   | `^5.6.2`  |
+| `cheerio`                 | `^1.1.2`  |
+| `crypto-js`               | `^4.2.0`  |
+| `ffmpeg-static`           | `^5.3.0`  |
+| `fluent-ffmpeg`           | `^2.1.3`  |
+| `fs-extra`                | `^11.3.2` |
+| `jimp`                    | `*`       |
+| `js-confuser`             | `^2.0.0`  |
+| `lowdb`                   | `^7.0.1`  |
+| `node-cache`              | `^5.1.2`  |
+| `node-fetch`              | `^3.3.2`  |
+| `node-webpmux`            | `^2.2.0`  |
+| `nodemon`                 | `^3.1.11` |
+| `pino`                    | `^10.1.0` |
+| `qrcode`                  | `^1.5.4`  |
+| `qrcode-reader`           | `^1.0.4`  |
+| `sharp`                   | `*`       |
+| `speedtest-cli`           | `^2.1.3`  |
+| `speedtest-net`           | `^2.2.0`  |
+| `syntax-error`            | `^1.4.0`  |
 
 </details>
 
@@ -272,7 +268,6 @@ Data yang dapat disimpan antara lain:
 * XP dan level
 * Money
 * Bank
-* Data RPG
 * AFK
 * Registrasi
 * Pengaturan grup
@@ -373,76 +368,6 @@ handler.help = ["hello"];
 
 export default handler;
 ```
-
----
-
-## Group Features
-
-Script menyediakan berbagai fitur untuk pengelolaan grup.
-
-Beberapa command yang tersedia:
-
-```text
-.add
-.kick
-.promote
-.demote
-.tagall
-.hidetag
-.listadmin
-.linkgc
-.opengc
-.closegc
-.setname
-.setdesc
-.setppgc
-.rules
-.setrules
-.welcome
-```
-
-Script juga menyediakan beberapa fitur perlindungan terhadap tautan:
-
-```text
-.antilink
-.antifb
-.antiig
-.antitt
-.antiyoutube
-.antimedia
-.antipromosi
-.antitagall
-.antihidetag
-```
-
----
-
-## RPG Features
-
-Sistem RPG menyediakan berbagai aktivitas dan fitur pengelolaan data pengguna.
-
-Beberapa command yang tersedia:
-
-```text
-.adventure
-.bank
-.berburu
-.chop
-.craft
-.give
-.heal
-.inventory
-.kandang
-.leaderboard
-.dapur
-.mencuri
-.pasar
-.profile
-.sell
-.sertifikat
-```
-
-Data RPG disimpan dalam database dan mencakup berbagai informasi seperti level, XP, HP, uang, bank, inventory, hasil berburu, kayu, peternakan, serta data lainnya.
 
 ---
 
