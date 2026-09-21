@@ -22,30 +22,34 @@
 
 ## Deskripsi
 
-**Simple Bot WhatsApp** merupakan script bot WhatsApp yang dikembangkan oleh **Fauzialifatah** menggunakan **Node.js**, **JavaScript**, dan **ECMAScript Modules (ESM)**.
+**Simple Bot WhatsApp** merupakan script bot WhatsApp yang dikembangkan oleh **Fauzialifatah** menggunakan **Node.js**, **JavaScript**, dan **ECMAScript Modules (ESM)**
 
-Script ini dirancang dengan struktur yang modular sehingga setiap fitur dapat dikelola, dikembangkan, dan disesuaikan dengan kebutuhan pengguna. Sistem bot menggunakan pendekatan berbasis plugin sehingga penambahan maupun pengembangan fitur dapat dilakukan secara lebih terstruktur.
+Script ini dirancang dengan struktur modular sehingga setiap komponen dapat dikelola, dikembangkan, dan disesuaikan sesuai dengan kebutuhan pengguna
 
-Bot menggunakan **Baileys** sebagai library untuk menghubungkan aplikasi dengan layanan WhatsApp. Selain itu, tersedia berbagai fitur yang mencakup downloader, sticker, AI, tools, sistem owner, database, serta berbagai fitur pendukung lainnya.
+Sistem bot menggunakan pendekatan berbasis plugin sehingga pengembangan dan penambahan fitur dapat dilakukan secara lebih terstruktur
 
-Script ini dapat digunakan sebagai media pembelajaran, dasar pengembangan bot WhatsApp, proyek pribadi, maupun pengembangan proyek publik dan privat.
+Bot menggunakan **Baileys** sebagai library untuk menghubungkan aplikasi dengan layanan WhatsApp
+
+Script dilengkapi dengan berbagai kategori fitur yang mencakup downloader, sticker, AI, tools, sistem owner, database, serta berbagai fitur pendukung lainnya
+
+Script ini dapat digunakan sebagai media pembelajaran, dasar pengembangan bot WhatsApp, proyek pribadi, maupun pengembangan proyek publik dan privat
 
 ---
 
 ## Features
 
-Script bot ini menyediakan beberapa kategori fitur sebagai berikut:
+Script bot menyediakan beberapa kategori fitur utama sebagai berikut
 
-| Kategori   | Deskripsi                                                                                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Main       | Menyediakan menu, ping, report, informasi bot, dan berbagai fitur utama lainnya.                                                                                          |
-| Downloader | Menyediakan fitur pengunduhan dari TikTok, CapCut, Google Drive, SFile, serta pencarian Spotify.                                                                          |
-| Sticker    | Menyediakan pembuatan dan pengolahan sticker dengan berbagai fitur tambahan.                                                                                              |
-| To Image   | Menyediakan berbagai fitur manipulasi dan pengolahan gambar.                                                                                                              |
-| Tools      | Menyediakan OCR, penerjemahan, upload, screenshot situs web, Base64, informasi perangkat, runtime, registrasi, pemeriksaan limit, serta berbagai fitur pendukung lainnya. |
-| AI         | Menyediakan fitur berbasis AI melalui command `gita`.                                                                                                                     |
-| Owner      | Menyediakan fitur pengelolaan bot, broadcast, premium, limit, plugin, maintenance, restart, backup, serta berbagai pengaturan lainnya.                                    |
-| Anti Link  | Menyediakan perlindungan terhadap berbagai jenis tautan, seperti Instagram, Facebook, TikTok, YouTube, media, promosi, dan lainnya.                                       |
+| Kategori   | Deskripsi                                                                                          |
+| ---------- | -------------------------------------------------------------------------------------------------- |
+| Main       | Menyediakan berbagai fungsi utama bot, termasuk sistem menu, informasi bot, dan fitur umum lainnya |
+| Downloader | Menyediakan berbagai fitur untuk mengunduh dan mengambil konten dari beberapa layanan internet     |
+| Sticker    | Menyediakan berbagai fitur untuk membuat, mengolah, dan menyesuaikan sticker                       |
+| To Image   | Menyediakan berbagai fitur untuk melakukan manipulasi dan pengolahan gambar                        |
+| Tools      | Menyediakan berbagai utilitas yang mendukung kebutuhan bot dan pengguna                            |
+| AI         | Menyediakan fitur berbasis kecerdasan buatan untuk mendukung interaksi pengguna                    |
+| Owner      | Menyediakan fitur khusus untuk pengelolaan dan administrasi bot                                    |
+| Anti Link  | Menyediakan sistem perlindungan terhadap berbagai tautan dan aktivitas tertentu di dalam grup      |
 
 ---
 
@@ -93,23 +97,25 @@ Script bot ini menyediakan beberapa kategori fitur sebagai berikut:
 
 </details>
 
-Project menggunakan konfigurasi:
+Project menggunakan konfigurasi
 
 ```json
 "type": "module"
 ```
 
-Dengan konfigurasi tersebut, sistem modul yang digunakan adalah **ECMAScript Modules (ESM)**.
+Dengan konfigurasi tersebut, project menggunakan sistem modul **ECMAScript Modules (ESM)**
 
 ---
 
 ## Requirements
 
-Project tidak menetapkan versi Node.js melalui field `engines`. Oleh karena itu, disarankan menggunakan versi **Node.js LTS** yang masih didukung.
+Project tidak menetapkan versi Node.js melalui field `engines`
 
-Pastikan Node.js dan NPM telah terpasang pada sistem.
+Oleh karena itu, disarankan menggunakan versi **Node.js LTS** yang masih didukung
 
-Periksa versi yang digunakan dengan perintah:
+Pastikan Node.js dan NPM telah terpasang pada sistem
+
+Untuk memeriksa versi yang digunakan
 
 ```bash
 node -v
@@ -120,40 +126,40 @@ npm -v
 
 ## Installation
 
-### 1. Clone Repository
+### 1 Clone Repository
 
 ```bash
 git clone https://github.com/Alifatahfauzi/Simple-bot.git
 cd Simple-bot
 ```
 
-### 2. Install Dependencies
+### 2 Install Dependencies
 
-Pasang seluruh dependency yang diperlukan dengan perintah:
+Instal seluruh dependency yang diperlukan dengan perintah
 
 ```bash
 npm install
 ```
 
-Tunggu hingga proses instalasi selesai.
+Tunggu hingga proses instalasi selesai
 
-### 3. Jalankan Bot
+### 3 Jalankan Bot
 
-Bot dapat dijalankan dengan:
+Bot dapat dijalankan menggunakan
 
 ```bash
 npm start
 ```
 
-atau:
+atau
 
 ```bash
 node index.js
 ```
 
-### 4. Mode Development
+### 4 Mode Development
 
-Untuk menjalankan bot menggunakan Nodemon:
+Untuk menjalankan bot menggunakan Nodemon
 
 ```bash
 npm run dev
@@ -163,13 +169,15 @@ npm run dev
 
 ## Configuration
 
-Konfigurasi utama bot terdapat pada:
+Konfigurasi utama bot terdapat pada
 
 ```text
 settings/config.js
 ```
 
-Beberapa konfigurasi utama yang tersedia adalah:
+Beberapa konfigurasi utama yang tersedia meliputi informasi owner, limit, prefix, nomor pairing, nama bot, informasi author, footer, dan thumbnail
+
+Contoh konfigurasi
 
 ```js
 global.owner = ["NOMOR_OWNER", "LID_OWNER"];
@@ -189,96 +197,59 @@ global.thumbnail = "./settings/image/dev.png";
 
 ### Parameter Konfigurasi
 
-| Parameter                   | Fungsi                                                         |
-| --------------------------- | -------------------------------------------------------------- |
-| `global.owner`              | Menentukan nomor dan identitas pemilik bot.                    |
-| `global.limit`              | Menentukan jumlah limit awal pengguna.                         |
-| `global.prefix`             | Menentukan awalan command bot.                                 |
-| `global.pairingPhoneNumber` | Menentukan nomor WhatsApp yang digunakan untuk proses pairing. |
-| `global.sessionName`        | Menentukan nama session WhatsApp.                              |
-| `global.namebotz`           | Menentukan nama bot.                                           |
-| `global.packname`           | Menentukan nama pack sticker.                                  |
-| `global.nameown`            | Menentukan nama pemilik bot.                                   |
-| `global.author`             | Menentukan informasi author pada sticker.                      |
-| `global.footer`             | Menentukan teks footer pada pesan bot.                         |
-| `global.thumbnail`          | Menentukan gambar thumbnail bot.                               |
-
-Prefix bawaan yang digunakan adalah:
-
-```text
-.
-```
-
-Contoh penggunaan command:
-
-```text
-.menu
-.ping
-.runtime
-.sticker
-```
+| Parameter                   | Keterangan                                                    |
+| --------------------------- | ------------------------------------------------------------- |
+| `global.owner`              | Menentukan nomor dan identitas pemilik bot                    |
+| `global.limit`              | Menentukan jumlah limit awal pengguna                         |
+| `global.prefix`             | Menentukan awalan perintah bot                                |
+| `global.pairingPhoneNumber` | Menentukan nomor WhatsApp yang digunakan untuk proses pairing |
+| `global.sessionName`        | Menentukan nama session WhatsApp                              |
+| `global.namebotz`           | Menentukan nama bot                                           |
+| `global.packname`           | Menentukan nama pack sticker                                  |
+| `global.nameown`            | Menentukan nama pemilik bot                                   |
+| `global.author`             | Menentukan informasi pembuat atau author                      |
+| `global.footer`             | Menentukan teks footer pada pesan bot                         |
+| `global.thumbnail`          | Menentukan gambar thumbnail bot                               |
 
 ---
 
 ## Pairing Code
 
-Script menggunakan sistem **WhatsApp Pairing Code** untuk menghubungkan bot dengan akun WhatsApp.
+Script menggunakan sistem **WhatsApp Pairing Code** untuk menghubungkan bot dengan akun WhatsApp
 
-Nomor yang digunakan dalam proses pairing dapat diatur melalui:
+Nomor yang digunakan dalam proses pairing dapat diatur melalui konfigurasi
 
 ```js
 global.pairingPhoneNumber = "NOMOR_WHATSAPP";
 ```
 
-Setelah bot dijalankan:
+Setelah bot dijalankan, apabila session belum tersedia, sistem akan menampilkan **pairing code**
 
-```bash
-npm start
-```
+Kode tersebut dapat dimasukkan melalui menu **Perangkat Tertaut atau Linked Devices** pada aplikasi WhatsApp
 
-apabila session belum tersedia, sistem akan menampilkan **pairing code**.
-
-Kode tersebut dapat dimasukkan melalui menu **Perangkat Tertaut (Linked Devices)** pada aplikasi WhatsApp.
-
-Setelah proses pairing berhasil, data session akan tersimpan pada folder:
+Setelah proses pairing berhasil, data session akan tersimpan pada folder
 
 ```text
 session/
 ```
 
-Data session bersifat sensitif dan tidak disarankan untuk dibagikan kepada pihak lain.
+Data session bersifat sensitif dan tidak disarankan untuk dibagikan kepada pihak lain
 
 ---
 
 ## Database
 
-Script menggunakan **LowDB** sebagai sistem penyimpanan data.
+Script menggunakan **LowDB** sebagai sistem penyimpanan data
 
-Database utama terdapat pada:
+Database utama terdapat pada
 
 ```text
 database/database.json
 ```
 
-Data yang dapat disimpan antara lain:
+Database digunakan untuk menyimpan berbagai data yang diperlukan oleh sistem bot
 
-* Data pengguna
-* Limit
-* Status premium
-* XP dan level
-* Money
-* Bank
-* AFK
-* Registrasi
-* Pengaturan grup
-* Pengaturan anti-link
-* Welcome
-* Maintenance
-* Auto read
-* Auto typing
-* Auto react
-
-Folder untuk penyimpanan file sementara:
+Folder untuk penyimpanan file sementara
 
 ```text
 database/tmp/
@@ -288,7 +259,7 @@ database/tmp/
 
 ## Project Structure
 
-Struktur utama project adalah sebagai berikut:
+Struktur utama project adalah sebagai berikut
 
 ```text
 Simple-bot/
@@ -335,9 +306,11 @@ Simple-bot/
 
 ## Plugin System
 
-Script menggunakan sistem berbasis plugin untuk mengatur berbagai command.
+Script menggunakan sistem berbasis plugin untuk mengelola berbagai fitur bot
 
-Plugin dikelompokkan berdasarkan kategori:
+Setiap plugin dikelompokkan berdasarkan kategori sehingga struktur project menjadi lebih terorganisasi dan mudah dikembangkan
+
+Kategori plugin yang tersedia meliputi
 
 ```text
 cmd/
@@ -353,173 +326,47 @@ cmd/
 └── tools/
 ```
 
-Dengan sistem tersebut, pengembangan fitur baru dapat dilakukan dengan menambahkan plugin sesuai kategori yang diperlukan.
-
-Contoh struktur plugin:
-
-```js
-let handler = async (m, { reply }) => {
-    await reply("Hello World");
-};
-
-handler.command = /^hello$/i;
-handler.tags = ["main"];
-handler.help = ["hello"];
-
-export default handler;
-```
+Sistem plugin memungkinkan pengembang untuk menambahkan, mengubah, atau menghapus fitur secara lebih terstruktur tanpa perlu melakukan perubahan besar pada sistem utama bot
 
 ---
 
 ## Sticker Features
 
-Bot menyediakan berbagai command untuk membuat dan mengolah sticker:
+Kategori sticker menyediakan berbagai fitur untuk pembuatan dan pengolahan sticker
 
-```text
-.sticker
-.brat
-.bratvid
-.circle
-.emojimix
-.qc
-.sblur
-.sgray
-.smeme
-.stext
-.stickerwm
-```
-
-Contoh penggunaan:
-
-```text
-.sticker
-```
-
-```text
-.brat Halo
-```
-
-```text
-.emojimix 😭 😂
-```
-
-```text
-.stickerwm NamaPack|Author
-```
+Fitur yang tersedia mencakup pembuatan sticker, pengolahan gambar, penambahan teks, pembuatan sticker berbasis template, serta berbagai bentuk pengolahan media lainnya
 
 ---
 
 ## Tools
 
-Beberapa command yang tersedia pada kategori tools:
-
-```text
-.afk
-.ascii
-.b64url
-.buttondemo
-.cekidch
-.ceklimit
-.cekreg
-.delmsg
-.device
-.fake
-.fetch
-.getpp
-.ocr
-.os
-.owner
-.register
-.runtime
-.ssweb
-.toimg
-.toplimit
-.topt
-.toptv
-.totalfitur
-.tourl
-.translate
-.tree
-.unreg
-.who
-```
+Kategori tools menyediakan berbagai utilitas yang mendukung kebutuhan pengguna dan sistem bot, termasuk pengolahan media, pemeriksaan informasi, konversi data, pengambilan informasi, penerjemahan, pengunggahan file, serta berbagai fungsi pendukung lainnya
 
 ---
 
 ## Downloader
 
-Script menyediakan beberapa fitur downloader:
+Kategori downloader menyediakan berbagai fitur untuk mengambil dan mengunduh konten dari beberapa layanan internet
 
-```text
-.capcut
-.gdrive
-.sfile
-.spsearch
-.tiktok
-```
-
-Contoh penggunaan:
-
-```text
-.tiktok https://www.tiktok.com/...
-```
+Sistem downloader dirancang untuk menangani berbagai jenis media sesuai dengan dukungan yang tersedia pada script
 
 ---
 
 ## Artificial Intelligence
 
-Script menyediakan fitur berbasis AI melalui command:
+Script menyediakan kategori **Artificial Intelligence atau AI** yang digunakan untuk mendukung interaksi berbasis kecerdasan buatan
 
-```text
-.gita <teks>
-```
-
-Contoh:
-
-```text
-.gita Jelaskan apa yang dimaksud dengan JavaScript.
-```
+Fitur ini dapat digunakan untuk melakukan pemrosesan atau menghasilkan respons berdasarkan input yang diberikan oleh pengguna
 
 ---
 
 ## Owner Features
 
-Fitur owner digunakan untuk mengelola sistem bot.
+Kategori owner menyediakan berbagai fitur khusus untuk pengelolaan sistem bot
 
-Beberapa command yang tersedia:
+Fitur tersebut mencakup pengelolaan pengguna, sistem premium, pengaturan limit, pengelolaan plugin, broadcast, backup, maintenance, pengaturan bot, serta berbagai fungsi administrasi lainnya
 
-```text
-.addlimit
-.addplugin
-.addprem
-.addsewa
-.autoreact
-.autoread
-.autotyping
-.backup
-.broadcast
-.cekprem
-.clearsesi
-.dellimit
-.delplugin
-.delprem
-.delsewa
-.getplugin
-.listplugin
-.maintenance
-.public
-.reload
-.restart
-.run
-.saveplugin
-.srchplugin
-.self
-.setppbot
-.totaluser
-.unbangroup
-```
-
-Fitur yang memiliki akses khusus hanya dapat digunakan oleh nomor yang telah terdaftar pada:
+Akses terhadap fitur khusus tersebut dibatasi hanya untuk owner yang telah terdaftar pada konfigurasi
 
 ```js
 global.owner
@@ -529,30 +376,28 @@ global.owner
 
 ## Bot Settings
 
-Script menyediakan beberapa pengaturan untuk mengontrol perilaku bot, antara lain:
+Script menyediakan beberapa pengaturan untuk mengontrol perilaku bot, seperti
 
-```text
-Self Mode
-Maintenance Mode
-Auto Read
-Auto Typing
-Auto React
-```
+* Self Mode
+* Maintenance Mode
+* Auto Read
+* Auto Typing
+* Auto React
 
-Pengaturan tersebut digunakan untuk menyesuaikan sistem bot dengan kebutuhan pengguna.
+Pengaturan tersebut digunakan untuk menyesuaikan perilaku bot sesuai dengan kebutuhan pengguna
 
 ---
 
 ## Running
 
-Setelah seluruh konfigurasi selesai dilakukan, jalankan perintah berikut:
+Setelah seluruh konfigurasi selesai dilakukan, jalankan
 
 ```bash
 npm install
 npm start
 ```
 
-Untuk mode pengembangan:
+Untuk menjalankan dalam mode pengembangan
 
 ```bash
 npm run dev
@@ -562,42 +407,35 @@ npm run dev
 
 ## Notes
 
-Perhatikan beberapa hal berikut sebelum menjalankan bot:
+Perhatikan beberapa hal berikut sebelum menjalankan bot
 
-1. Pastikan Node.js dan NPM telah terpasang.
-2. Pastikan seluruh dependency berhasil diinstal menggunakan `npm install`.
-3. Pastikan nomor WhatsApp untuk pairing telah dikonfigurasi dengan benar.
-4. Jangan menghapus folder `session` selama bot masih digunakan.
-5. Pastikan koneksi internet dalam keadaan stabil.
-6. Jangan membagikan data session kepada pihak lain.
-7. Jangan mempublikasikan API key, token, password, maupun credential pribadi ke repository.
-8. Lakukan pencadangan database secara berkala untuk menghindari kehilangan data.
+1. Pastikan Node.js dan NPM telah terpasang
+2. Pastikan seluruh dependency berhasil diinstal menggunakan `npm install`
+3. Pastikan konfigurasi nomor WhatsApp untuk pairing telah diatur dengan benar
+4. Jangan menghapus folder `session` selama bot masih digunakan
+5. Pastikan koneksi internet dalam keadaan stabil
+6. Jangan membagikan data session kepada pihak lain
+7. Jangan mempublikasikan API key, token, password, atau credential pribadi ke repository
+8. Lakukan pencadangan database secara berkala untuk mengurangi risiko kehilangan data
 
-Bot menggunakan **Baileys**, yaitu library tidak resmi untuk berkomunikasi dengan WhatsApp. Perubahan pada sistem WhatsApp dapat memengaruhi kompatibilitas, kestabilan, maupun cara kerja bot. Oleh karena itu, dependency dan source code mungkin perlu diperbarui apabila terdapat perubahan yang memengaruhi sistem.
+Bot menggunakan **Baileys**, yaitu library tidak resmi untuk berkomunikasi dengan WhatsApp
 
----
+Perubahan pada sistem WhatsApp dapat memengaruhi kompatibilitas, kestabilan, maupun cara kerja bot
 
-## Support
-
-**WhatsApp Channel**
-https://whatsapp.com/channel/0029VbC5iM33LdQe3IxCZs1K
-
-**GitHub**
-https://github.com/Alifatahfauzi
-
-**Telegram**
-https://t.me/FauziAlifatah
-
-**YouTube**
-https://www.youtube.com/@Fauzialifatah
+Oleh karena itu, dependency dan source code dapat memerlukan pembaruan apabila terdapat perubahan yang memengaruhi sistem
 
 ---
 
-## Credits
+## Support & Credits
 
 **Dikembangkan oleh Fauzialifatah**
 
-GitHub:
-https://github.com/Alifatahfauzi
+| Platform         | Tautan                                                 |
+| ---------------- | ------------------------------------------------------ |
+| Telegram         | https://t.me/FauziAlifatah                             |
+| GitHub           | https://github.com/Alifatahfauzi                       |
+| WhatsApp Channel | https://whatsapp.com/channel/0029VbC6j2u74NViqgNCLev3a |
 
-© Fauzialifatah
+---
+
+© 2026 Fauzialifatah
